@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo do Cano</title>
+    <script type="text/javascript" charset="utf-8" src="fun.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body align="center">
+    <div align="center">
+    <h1 class="quest">- FASE 10</h1>
+    </div>
+    <br>
+    <br>
+    <img src="imagens/base.png"         alt="" id="AA" onclick="RODA('AA',0,0,'B')">
+    <img src="imagens/base.png"         alt="" id="AB" onclick="RODA('AB',0,1,'B')">
+    <img src="imagens/curvaL.png"       alt="" id="AC" onclick="RODA('AC',0,2,'M')" onload="setup('AC',0,2,'M')">
+    <img src="imagens/ligaT.png"        alt="" id="AD" onclick="RODA('AD',0,3,'M')" onload="setup('AD',0,3,'M')">
+    <img src="imagens/registor.png"     alt="" id="AE" onclick="RODA('AE',0,4,'N')" onload="setup('AE',0,4,'N')">
+    <img src="imagens/ligaT.png"        alt="" id="AF" onclick="RODA('AF',0,5,'M')" onload="setup('AF',0,5,'M')">
+    <img src="imagens/basereta.png"     alt="" id="AG" onclick="RODA('AG',0,6,'N')" onload="setup('AG',0,6,'N')">
+    <img src="imagens/basereta.png"     alt="" id="AH" onclick="RODA('AH',0,7,'N')" onload="setup('AH',0,7,'N')">
+    <img src="imagens/curvaL.png"       alt="" id="AI" onclick="RODA('AI',0,8,'M')" onload="setup('AI',0,8,'M')">
+    <br>
+    <img src="imagens/base.png"         alt="" id="BA" onclick="RODA('BA',1,0,'B')">
+    <img src="imagens/base.png"         alt="" id="BB" onclick="RODA('BB',1,1,'B')">
+    <img src="imagens/fioTerra.png"     alt="" id="BC" onclick="RODA('BC',1,2,'M')" onload="setup('BC',1,2,'M')">
+    <img src="imagens/registor.png"     alt="" id="BD" onclick="RODA('BD',1,3,'N')" onload="setup('BD',1,3,'N')">
+    <img src="imagens/base.png"         alt="" id="BE" onclick="RODA('BE',1,4,'B')">
+    <img src="imagens/basereta.png"     alt="" id="BF" onclick="RODA('BF',1,5,'N')" onload="setup('BF',1,5,'N')">
+    <img src="imagens/base.png"         alt="" id="BG" onclick="RODA('BG',1,6,'B')">
+    <img src="imagens/base.png"         alt="" id="BH" onclick="RODA('BH',1,7,'B')">
+    <img src="imagens/basereta.png"     alt="" id="BI" onclick="RODA('BI',1,8,'N')" onload="setup('BI',1,8,'N')">
+    <br>
+    <img src="imagens/curvaL.png"       alt="" id="CA" onclick="RODA('CA',2,0,'M')" onload="setup('CA',2,0,'M')">
+    <img src="imagens/registor.png"     alt="" id="CB" onclick="RODA('CB',2,1,'N')" onload="setup('CB',2,1,'N')">
+    <img src="imagens/capacitor.png"    alt="" id="CC" onclick="RODA('CC',2,2,'N')" onload="setup('CC',2,2,'N')">
+    <img src="imagens/cruz.png"         alt="" id="CD" onclick="RODA('CD',2,3,'C')" onload="setup('CD',2,3,'C')">
+    <img src="imagens/basereta.png"     alt="" id="CE" onclick="RODA('CE',2,4,'N')" onload="setup('CE',2,4,'N')">
+    <img src="imagens/transistor.png"   alt="" id="CF" onclick="RODA('CF',2,5,'M')" onload="setup('CF',2,5,'M')">
+    <img src="imagens/base.png"         alt="" id="CG" onclick="RODA('CG',2,6,'B')">
+    <img src="imagens/base.png"         alt="" id="CH" onclick="RODA('CH',2,7,'B')">
+    <img src="imagens/fonte.png"        alt="" id="CI" onclick="RODA('CI',2,8,'M')" onload="setup('CI',2,8,'M')">
+    <br>
+    <img src="imagens/fonteAlt.png"     alt="" id="DA" onclick="RODA('DA',3,0,'N')" onload="setup('DA',3,0,'N')">
+    <img src="imagens/base.png"         alt="" id="DB" onclick="RODA('DB',3,1,'B')">
+    <img src="imagens/base.png"         alt="" id="DC" onclick="RODA('DC',3,2,'B')">
+    <img src="imagens/registor.png"     alt="" id="DD" onclick="RODA('DD',3,3,'N')" onload="setup('DD',3,3,'N')">
+    <img src="imagens/base.png"         alt="" id="DE" onclick="RODA('DE',3,4,'B')">
+    <img src="imagens/ligaT.png"        alt="" id="DF" onclick="RODA('DF',3,5,'M')" onload="setup('DF',3,5,'M')">
+    <img src="imagens/capacitorpol.png" alt="" id="DG" onclick="RODA('DG',3,6,'M')" onload="setup('DG',3,6,'M')">
+    <img src="imagens/curvaL.png"       alt="" id="DH" onclick="RODA('DH',3,7,'M')" onload="setup('DH',3,7,'M')">
+    <img src="imagens/basereta.png"     alt="" id="DI" onclick="RODA('DI',3,8,'N')" onload="setup('DI',3,8,'N')">
+    <br>
+    <img src="imagens/basereta.png"     alt="" id="EA" onclick="RODA('EA',4,0,'N')" onload="setup('EA',4,0,'N')">
+    <img src="imagens/base.png"         alt="" id="EB" onclick="RODA('EB',4,1,'B')">
+    <img src="imagens/base.png"         alt="" id="EC" onclick="RODA('EC',4,2,'B')">
+    <img src="imagens/basereta.png"     alt="" id="ED" onclick="RODA('ED',4,3,'N')" onload="setup('ED',4,3,'N')">
+    <img src="imagens/base.png"         alt="" id="EE" onclick="RODA('EE',4,4,'B')">
+    <img src="imagens/registor.png"     alt="" id="EF" onclick="RODA('EF',4,5,'N')" onload="setup('EF',4,5,'N')">
+    <img src="imagens/base.png"         alt="" id="EG" onclick="RODA('EG',4,6,'B')">
+    <img src="imagens/registor.png"     alt="" id="EH" onclick="RODA('EH',4,7,'N')" onload="setup('EH',4,7,'N')">
+    <img src="imagens/basereta.png"     alt="" id="EI" onclick="RODA('EI',4,8,'N')" onload="setup('EI',4,8,'N')">
+    <br>
+    <img src="imagens/curvaL.png"       alt="" id="FA" onclick="RODA('FA',5,0,'M')" onload="setup('FA',5,0,'M')">
+    <img src="imagens/basereta.png"     alt="" id="FB" onclick="RODA('FB',5,1,'N')" onload="setup('FB',5,1,'N')">
+    <img src="imagens/basereta.png"     alt="" id="FC" onclick="RODA('FC',5,2,'N')" onload="setup('FC',5,2,'N')">
+    <img src="imagens/ligaT.png"        alt="" id="FD" onclick="RODA('FD',5,3,'M')" onload="setup('FD',5,3,'M')">
+    <img src="imagens/basereta.png"     alt="" id="FE" onclick="RODA('FE',5,4,'N')" onload="setup('FE',5,4,'N')">
+    <img src="imagens/cruz.png"         alt="" id="FF" onclick="RODA('FF',5,5,'C')" onload="setup('FF',5,5,'C')">
+    <img src="imagens/basereta.png"     alt="" id="FG" onclick="RODA('FG',5,6,'N')" onload="setup('FG',5,6,'N')">
+    <img src="imagens/ligaT.png"        alt="" id="FH" onclick="RODA('FH',5,7,'M')" onload="setup('FH',5,7,'M')">
+    <img src="imagens/curvaL.png"       alt="" id="FI" onclick="RODA('FI',5,8,'M')" onload="setup('FI',5,8,'M')">
+    <br>
+    <img src="imagens/base.png"         alt="" id="GA" onclick="RODA('GA',6,0,'B')">
+    <img src="imagens/base.png"         alt="" id="GB" onclick="RODA('GB',6,1,'B')">
+    <img src="imagens/base.png"         alt="" id="GC" onclick="RODA('GC',6,2,'B')">
+    <img src="imagens/base.png"         alt="" id="GD" onclick="RODA('GD',6,3,'B')">
+    <img src="imagens/base.png"         alt="" id="GE" onclick="RODA('GE',6,4,'B')">
+    <img src="imagens/fioTerra.png"     alt="" id="GF" onclick="RODA('GF',6,5,'M')" onload="setup('GF',6,5,'M')">
+    <img src="imagens/base.png"         alt="" id="GG" onclick="RODA('GG',6,6,'B')">
+    <img src="imagens/base.png"         alt="" id="GH" onclick="RODA('GH',6,7,'B')">
+    <img src="imagens/base.png"         alt="" id="GI" onclick="RODA('GI',6,8,'B')">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <table align="center">
+        <tr>
+        <td>
+    <input type="button" onClick="gabarito10()" class="botao3d" value="Tentar"></input>
+    </td>
+    <td>
+    <a href="cano_fases.html">
+        <input type="button" class="botao3d" value="Voltar"></input>
+    </a>
+    </td>
+    </tr>
+    </table>
+</body>
+
+</html>
